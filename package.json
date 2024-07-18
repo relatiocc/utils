@@ -1,5 +1,5 @@
 {
-  "name": "utils",
+  "name": "@relatiohq/utils",
   "version": "1.0.0",
   "description": "@relatiohq/utils is a package of utility functions used by Relatio products",
   "author": "@relatiohq",
