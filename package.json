@@ -1,0 +1,32 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "@relatiohq/utils is a package of utility functions used by Relatio products",
+  "author": "@relatiohq",
+  "license": "MIT",
+  "main": "dist",
+  "typings": "dist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relatiocc/utils.git"
+  },
+  "scripts": {
+    "prepublishOnly": "pnpm lint && pnpm test && pnpm build",
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint",
+    "format": "pnpm exec prettier . --write"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "@types/node": "^20.14.11",
+    "eslint": "9.x",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.8.0",
+    "prettier": "3.3.3",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.16.1",
+    "vitest": "^2.0.3"
+  }
+}
