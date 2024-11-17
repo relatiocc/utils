@@ -1,6 +1,6 @@
 {
   "name": "@relatiohq/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "@relatiohq/utils is a package of utility functions used by Relatio products",
   "author": "@relatiohq",
   "license": "MIT",
